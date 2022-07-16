@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+}
+
+nav {
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  color: aqua;
+  background-color: rgb(36, 31, 6);
+  padding: 30px;
+  font-weight: bold;
+}
+nav:hover {
+  text-decoration: underline 2px lime;
+  color: #4ff502;
+}
