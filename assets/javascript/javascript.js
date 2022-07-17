@@ -41,20 +41,37 @@ document.getElementById("submitOutputD").onclick = function () {
 document.getElementById("shedDResults").innerHTML =
   "Your production in shed D is " + shedDProduction + " " + "litres per day.";
 };
+////  >>>>>>>>>>>>>>>>>>>>>>>>> data input part works well till here 
 
+totalProduction = shedAProduction + shedBProduction + shedCProduction + shedDProduction;
 
  document.getElementById("daysProduction").onclick = function () {
    var totalProduction = document.getElementById("totalProduction").innerHTML =
   " The total production is " + totalProduction + " " + "litres per day.";
-  totalProduction = shedAProduction + shedBProduction + shedCProduction + shedDProduction;
   return (totalProduction);
 };
    
 
 
+document.getElementById("weekincome").onclick = 
+  
+   document.getElementById("weeklyincome").innerHTML =
+     " Your weekly income will be Ksh 590940";
 
-// income over time
 
-function incomeOverTime(selling_price, time) {
 
-}
+
+
+
+
+
+// income over time//
+// var brookside = 45;//
+// var week = 7;//
+// var year = 365;//
+// const totalProduction = 1232;//
+// function incomeOverTime(selling_price, time, product) {
+// weeklyIncome = (selling_price * time * product);//
+// } //
+// incomeOverTime(brookside, week, totalProduction );//
+//  var weeklyIncome = document.getElementById("weeklyincome").innerHTML = "Your weekly income will be KSH" + weeklyIncome;//
