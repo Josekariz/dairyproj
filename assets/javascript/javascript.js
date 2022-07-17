@@ -43,21 +43,23 @@ document.getElementById("shedDResults").innerHTML =
 };
 ////  >>>>>>>>>>>>>>>>>>>>>>>>> data input part works well till here 
 
-totalProduction = shedAProduction + shedBProduction + shedCProduction + shedDProduction;
+totalProduction = parseInt(shedAProduction + shedBProduction + shedCProduction + shedDProduction);
 
  document.getElementById("daysProduction").onclick = function () {
    var totalProduction = document.getElementById("totalProduction").innerHTML =
   " The total production is " + totalProduction + " " + "litres per day.";
-  return (totalProduction);
 };
    
 
 
-document.getElementById("weekincome").onclick = 
-  
+function weekFunction(){  
    document.getElementById("weeklyincome").innerHTML =
      " Your weekly income will be Ksh 590940";
-
+}
+function yearFunction(){  
+  document.getElementById("yearlyincome").innerHTML =
+    " Your yearly income will be Ksh 30813300";
+}
 
 
 
