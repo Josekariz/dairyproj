@@ -1,0 +1,60 @@
+//  alert("You are about to enter todays output for the cows shed in litres")
+//  alert("use numbers only ie 200 then press ok")
+// const shedAProduction  =  parseInt(prompt ("SHED A PRODUCTION?"))
+// const shedBProduction = parseInt(prompt("SHED B PRODUCTION?"))
+// const shedCProduction = parseInt(prompt("SHED C PRODUCTION?"))
+// const shedDProduction = parseInt(prompt("SHED D PRODUCTION?"))
+
+// // console.log(totalProduction  + " litres of milk per day");
+
+
+
+//shed A 
+document.getElementById("submitOutputA").onclick = function () {
+ const shedAProduction = document.getElementById("outputShedA").value;
+document.getElementById("shedAResults").innerHTML =
+  "Your production in shed A is " + shedAProduction + " " + "litres per day.";
+};
+
+
+
+//shed B
+document.getElementById("submitOutputB").onclick = function () {
+ const shedBProduction = document.getElementById("outputShedB").value;
+document.getElementById("shedBResults").innerHTML =
+  "Your production in shed B is " + shedBProduction + " " + "litres per day.";
+};
+
+
+//shed C
+document.getElementById("submitOutputC").onclick = function () {
+ const shedCProduction = document.getElementById("outputShedC").value;
+ 
+document.getElementById("shedCResults").innerHTML =   "Your production in shed C is " + shedCProduction + " " + "litres per day.";
+};
+
+
+
+//shed D
+document.getElementById("submitOutputD").onclick = function () {
+ const shedDProduction = document.getElementById("outputShedD").value;
+document.getElementById("shedDResults").innerHTML =
+  "Your production in shed D is " + shedDProduction + " " + "litres per day.";
+};
+
+
+ document.getElementById("daysProduction").onclick = function () {
+   var totalProduction = document.getElementById("totalProduction").innerHTML =
+  " The total production is " + totalProduction + " " + "litres per day.";
+  totalProduction = shedAProduction + shedBProduction + shedCProduction + shedDProduction;
+  return (totalProduction);
+};
+   
+
+
+
+// income over time
+
+function incomeOverTime(selling_price, time) {
+
+}
