@@ -9,7 +9,44 @@
   <body>
     <nav>Sejo's Dairy farm</nav>
 
+    <div class="background">
        
+       
+        <div class="datainput">
+            <h1>Data input</h1> <br>
+            <div class="shed">
+                <label > SHED A OUTPUT IN LITRES</label> <br>
+                <input type="number" id="outputShedA">
+                <button type="button" id="submitOutputA">Submit</button>
+            </div>
+            <div class="shed">
+                <label > SHED B OUTPUT IN LITRES</label> <br>
+                <input type="number" id="outputShedB">
+                <button type="button" id="submitOutputB">Submit</button>
+            </div>
+            <div class="shed">
+                <label > SHED C OUTPUT IN LITRES</label> <br>
+                <input type="number" id="outputShedC">
+                <button type="button" id="submitOutputC">Submit</button>
+            </div>
+            <div class="shed">
+                <label > SHED D OUTPUT IN LITRES</label> <br>
+                <input type="number" id="outputShedD">
+                <button type="button" id="submitOutputD">Submit</button>  <br> <br>
+                <input type="button" id="daysProduction" value="Total days production"> </input>
+            </div> <br>
+            <h2 id="result"></h2> <br> <br>
+              <div class="oneday">
+               <h1 id="shed_A">Results.</h1>
+                 <div class="displayresults">
+                  <p id="shedAResults">Your production will be displayed here</p>
+                  <p id="shedBResults"></p>
+                  <p id="shedCResults"></p>
+                  <p id="shedDResults"></p>
+                  <h3 id="totalProduction"></h3>
+                </div>
+              </div>
+        </div>
     <script src="./assets/javascript/javascript.js"></script>
   </body>
 </html>
