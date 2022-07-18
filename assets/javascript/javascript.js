@@ -63,8 +63,11 @@ function yearFunction(){
 
 
 
+var monthsOfTheYear = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 
-
+function displayMonths(){
+  for (var i=0; i<=monthsOfTheYear.length; i++)
+  {console.log(monthsOfTheYear[i])};
 
 
 // income over time//
